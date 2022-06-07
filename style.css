@@ -1,17 +1,48 @@
-*{
+* {
     box-sizing: border-box;
-}
-body {
-  margin: 0;
-}
-#vg-tooltip-element {
-  font-size: 20px;
-  color: #3e3c38;
-}
-#first-chart {
-  padding: 2rem 4rem;
-  display: grid;
-  align-items: center;
-  gap: 10rem;
-  width: 100%;
-}
+  }
+  body {
+    margin: 0;
+  }
+  #vg-tooltip-element {
+    font-size: 20px;
+    color: #3e3c38;
+  }
+  #first-chart {
+    padding: 2rem 4rem;
+    display: grid;
+    align-items: center;
+    gap: 10rem;
+    width: 100%;
+  }
+  
+  .axis text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19pt;
+  }
+  .axis .label {
+    font-size: 20pt;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  
+  .color-legend text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19pt;
+  }
+  
+  .d3-tip {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19pt;
+    line-height: 1;
+    padding: 7px;
+    background: black;
+    color: lightgray;
+    border-radius: 20px;
+  }
+  
