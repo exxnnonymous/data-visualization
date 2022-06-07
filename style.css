@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#vg-tooltip-element {
+  font-size: 20px;
+  color: #3e3c38;
+}
+#first-chart {
+  padding: 2rem 4rem;
+  display: grid;
+  align-items: center;
+  gap: 10rem;
+  width: 100%;
+}
